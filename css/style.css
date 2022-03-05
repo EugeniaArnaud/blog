@@ -1,0 +1,106 @@
+/* .container {
+    
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+     
+} */
+
+.navbar {
+    background-color: rgb(189, 45, 52);
+    
+}
+
+.color-article {
+    background-color: rgb(245, 212, 213);
+}
+.titulo-main{
+    font-family: 'Homemade Apple', cursive;
+}
+
+/* .imgcompra {
+    display: flex;
+    align-content: center;
+} */
+
+.titulo-articulo {
+    display: flex;
+justify-content: center;
+background-color: rgb(189, 45, 52);
+color: rgb(248, 248, 248);
+cursor: default;
+
+}
+.navbar-brand {
+    filter: invert();
+}
+
+.imgprueba {
+    float: left;
+    width: 20rem;
+}
+
+.letra-articulos-nuevos {
+color: rgb(126, 123, 123);
+}
+
+.card-prueba {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card-prueba:hover {
+box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+transform: translateY(-2%); 
+} 
+
+.carousel-item {
+    cursor: default;
+}
+
+.footercopy {
+    text-decoration: none;
+    color: inherit;
+    
+}
+.footercopy:hover   {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-redes {
+   filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.2)); 
+   filter: grayscale();
+
+}
+
+.logo-redes:hover {
+    transform: translateY(-3%);  
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)) grayscale();
+   
+}
+
+/* .tamañotarjetas {
+    display: flex;
+    justify-content: ;
+    align-content: center;
+    height: 28rem
+    
+} */
+/* COLOR OPCIONAL: rgb(245, 202, 174); (CREMITA) */
+
+footer {
+        background-color: rgba(255, 255, 255, 0.644);
+  
+}
+
+.imagen {
+    width: 40rem;
+    margin: auto;
+    display: flex;
+}
+
+.apunte {
+    font-size: small;
+}
